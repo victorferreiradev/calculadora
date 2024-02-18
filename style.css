@@ -1,0 +1,127 @@
+/* Estilo do corpo da página */
+
+body {
+    background-color: #fff;
+}
+
+
+/* Estilo da calculadora */
+
+.calculadora {
+    margin-top: 40px;
+    /* Margem superior */
+    border: solid 1px #C0C0C0;
+    /* Borda sólida */
+    padding: 20px;
+    /* Preenchimento interno */
+    background-color: #C0C0C0;
+    /* Cor de fundo */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    box-shadow: 0px 0px 15px #676666;
+    /* Sombra */
+}
+
+
+/* Estilo dos botões */
+
+.btn {
+    width: 60px;
+    /* Largura */
+    height: 60px;
+    /* Altura */
+    margin: 5px;
+    /* Margem */
+    box-shadow: 1px 1px 1px #ccc;
+    /* Sombra */
+    font-size: 18px;
+    /* Tamanho da fonte */
+}
+
+
+/* Estilo do botão "clear" */
+
+.clear {
+    width: 130px;
+    /* Largura */
+}
+
+
+/* Estilo do botão "enter" */
+
+.enter {
+    height: 130px;
+    /* Altura */
+}
+
+
+/* Estilo do botão "zero" */
+
+.zero {
+    width: 130px;
+    /* Largura */
+}
+
+
+/* Estilo do resultado */
+
+.resultado {
+    text-align: right;
+    /* Alinhamento à direita */
+    font-size: 24px;
+    /* Tamanho da fonte */
+    margin-top: 10px;
+    /* Margem superior */
+    margin-bottom: 20px;
+    /* Margem inferior */
+    border: solid 1px #ccc;
+    /* Borda sólida */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    padding: 10px;
+    /* Preenchimento interno */
+    box-shadow: 1px 1px 1px #ccc;
+    /* Sombra */
+}
+
+
+/* Estilos para dispositivos menores */
+
+@media (max-width: 768px) {
+    .calculadora {
+        padding: 15px;
+        /* Preenchimento interno */
+        margin-top: 20px;
+        /* Margem superior */
+    }
+    .btn {
+        width: 50px;
+        /* Largura */
+        height: 50px;
+        /* Altura */
+        font-size: 16px;
+        /* Tamanho da fonte */
+    }
+    .resultado {
+        font-size: 20px;
+        /* Tamanho da fonte */
+        padding: 8px;
+        /* Preenchimento interno */
+    }
+    .row {
+        margin-bottom: 10px;
+        /* Margem inferior */
+    }
+    .clear {
+        width: 100px;
+        /* Largura */
+    }
+    .enter {
+        height: 100px;
+        /* Altura */
+    }
+    .zero {
+        width: 100px;
+        /* Largura */
+    }
+}
