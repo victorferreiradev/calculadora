@@ -1,14 +1,14 @@
-# Calculadora
+# Calculadora 💰
 
 Uma calculadora simples desenvolvida com HTML, CSS e JavaScript, utilizando o framework Bootstrap para o layout.
 
-## Funcionalidades
+## 📝 Funcionalidades
 
 - Realizar operações matemáticas básicas (adição, subtração, multiplicação, divisão)
 - Limpar o visor
 - Exibir o resultado no visor
 
-## Como Usar
+## 💡 Como Usar
 
 1. Baixe os arquivos HTML, CSS e JavaScript.
 2. Abra o arquivo HTML em um navegador da web.
